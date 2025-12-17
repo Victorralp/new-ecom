@@ -1,36 +1,82 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Elegante — Premium Animated eCommerce
 
-## Getting Started
+A beautiful, highly animated eCommerce website built with React (Vite) that feels like a premium fashion/lifestyle brand.
 
-First, run the development server:
+## ✨ Features
+
+- **Elegant Design**: Soft neutral color palette with refined accents
+- **Smooth Animations**: Powered by Framer Motion & GSAP
+- **Smooth Scrolling**: Lenis smooth scroll implementation
+- **Responsive**: Beautiful on all devices
+- **Premium UX**: Thoughtful micro-interactions and transitions
+
+## 🛠 Tech Stack
+
+- **React 18** with Vite
+- **Framer Motion** - Page transitions and component animations
+- **GSAP + ScrollTrigger** - Scroll-based animations and parallax effects
+- **Lenis** - Buttery smooth scrolling
+- **Tailwind CSS** - Utility-first styling
+- **React Router** - Client-side routing
+
+## 🚀 Getting Started
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📦 Build
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a production build:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Preview the production build:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run preview
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🎨 Design Philosophy
 
-## Deploy on Vercel
+- **White space is sacred** - Clean, breathable layouts
+- **Motion serves beauty** - Slow, intentional animations
+- **Typography breathes** - Editorial-style hierarchy
+- **Premium feel** - Every detail matters
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 📁 Project Structure
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```
+src/
+ ├─ components/        # Reusable UI components
+ ├─ pages/            # Page components
+ ├─ animations/       # Animation variants
+ ├─ data/            # Product data
+ ├─ hooks/           # Custom React hooks
+ ├─ context/         # React context (Cart)
+ └─ App.jsx          # Main app component
+```
+
+## 🎯 Pages
+
+- **Home** - Hero section with staggered animations
+- **Shop** - Filterable product grid
+- **Product** - Detailed product view with parallax
+- **Checkout** - Clean, minimal checkout flow
+- **Cart** - Smooth slide-in drawer
+
+---
+
+Made with care and attention to detail.
